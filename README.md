@@ -1,94 +1,90 @@
-# [Docker Learning Repository](#)
+# Docker Learning Repository
 
-Welcome to the Docker Learning Repository! This repository is designed to guide you through the process of learning Docker, covering everything from the fundamentals to advanced topics and real-world applications.
+Welcome to the Docker Learning Repository! This repository is designed to guide you through the fundamentals and advanced topics of Docker, helping you gain practical skills in containerization.
 
-## [Table of Contents](#)
+# Docker Syllabus
 
-### [Module 1: Introduction to Docker](Module-1/About.md)
+## Table of Contents
 
-- #### [1.1 Overview of Containerization](Module-1/1.1_Overview_of_Containerization.md)
+### [1. Introduction to Docker](./Module-1/)
 
-  - 1.1.1 What is Containerization.?
-  - 1.1.2 Advantages of Containerization
-  - 1.1.3 Comparison with Virtualization
+#### [1.1. Understanding Containerization](./Module-1/1.1_Understanding_Containerizationn.md)
 
-- #### [1.2 Docker Introduction](Module-1/1.2_Docker_Introduction.md)
+- [1.1.1. What is containerization?](#)
+- [1.1.2. Docker vs. traditional virtualization](#)
+- [1.1.3. Benefits of using Docker](#)
 
-  - ##### 1.2.1 History and Background
-  - ##### 1.2.2 Docker Ecosystem
-  - ##### 1.2.3 Use Cases for Docker
+#### [1.2. Installing Docker & Basic commands](./Module-1/1.2_Installing_Docker_on_your_local_machine.md)
 
-- #### [1.3 Practical Exercises](Module-1/1.3_Practical_Exercises.md)
+- [1.2.1. Installing Docker](#)
+- [1.2.2. Basic Docker commands and CLI usage](#)
 
-### [Module 2: Installation and Setup](Module-2/About.md)
+#### [1.3. Creating your first Docker container](./Module-1/1.3_Creating_your_first_Docker_container.md)
 
-- [2.1 Installing Docker](Module-2/2.1_Installing_Docker.md)
-- [2.2 Docker Hub](Module-2/2.2_Docker_Hub.md)
-- [2.3 Practical Exercises](Module-2/2.3_Practical_Exercises.md)
-- [2.4 Resources](Module-2/2.4_Resources.md)
+- [1.3.1. Building and Running Containers](#)
+- [1.3.2. Running containers with different options](#)
+- [1.3.3. Managing container lifecycle](#)
 
-### [Module 3: Basic Docker Commands](Module-3/About.md)
+### [2. Docker Images and Registries](./Module-2/)
 
-- [3.1 Docker CLI](Module-3/3.1_Docker_CLI.md)
-- [3.2 Container Lifecycle](Module-3/3.2_Container_Lifecycle.md)
-- [3.3 Practical Exercises](Module-3/3.3_Practical_Exercises.md)
-- [3.4 Resources](Module-3/3.4_Resources.md)
+#### [2.1. Docker Images](./Module-2/2.1_Docker_Images.md)
 
-### [Module 4: Docker Images and Dockerfile](Module-4/About.md)
+- [2.1.1. Fundamental Components of a Docker Image](#)
+- [2.1.2. Writing Dockerfile](#)
+- [2.1.3. Creating or Building and Running Docker images](#)
+- [2.1.x. Best practices for creating efficient images](#)
 
-- [4.1 Docker Images](Module-4/4.1_Docker_Images.md)
-- [4.2 Dockerfile](Module-4/4.2_Dockerfile.md)
-- [4.3 Practical Exercises](Module-4/4.3_Practical_Exercises.md)
-- [4.4 Resources](Module-4/4.4_Resources.md)
+#### [2.2. Docker Registries](./Module-2/2.2_Docker_Registries.md)
 
-### [Module 5: Container Networking](Module-5/About.md)
+- [2.2.1. Introduction to Docker Hub](#)
+- [2.2.2. Pushing and pulling images](#)
+- [2.2.3. Private registries and their setup](#)
 
-- [5.1 Networking Basics](Module-5/5.1_Networking_Basics.md)
-- [5.2 Docker Network Commands](Module-5/5.2_Docker_Network_Commands.md)
-- [5.3 Practical Exercises](Module-5/5.3_Practical_Exercises.md)
-- [5.4 Resources](Module-5/5.4_Resources.md)
+### [3. Docker Networking](./Module-3/)
 
-### [Module 6: Data Management in Docker](Module-6/About.md)
+#### [3.1. Container Networking](./Module-3/3.1_Container_Networking.md)
 
-- [6.1 Volumes](Module-6/6.1_Volumes.md)
-- [6.2 Bind Mounts](Module-6/6.2_Bind_Mounts.md)
-- [6.3 Practical Exercises](Module-6/6.3_Practical_Exercises.md)
-- [6.4 Resources](Module-6/6.4_Resources.md)
+- [3.1.1. Understanding Docker networking](#)
+- [3.1.2. Linking containers](#)
+- [3.1.3. Exposing container ports](#)
 
-### [Module 7: Docker Compose](Module-7/About.md)
+#### [3.2. Docker Compose](./Module-3/3.2_Docker_Compose.md)
 
-- [7.1 Introduction to Docker Compose](Module-7/7.1_Docker_Compose.md)
-- [7.2 Docker Compose YAML](Module-7/7.2_Docker_Compose_YAML.md)
-- [7.3 Practical Exercises](Module-7/7.3_Practical_Exercises.md)
-- [7.4 Resources](Module-7/7.4_Resources.md)
+- [3.2.1. Introduction to Docker Compose](#)
+- [3.2.2. Defining multi-container applications](#)
+- [3.2.3. Managing multi-container environments](#)
 
-### [Module 8: Docker Orchestration (Optional)](Module-8/About.md)
+### [4. Docker Volumes and Data Management](./Module-4/)
 
-- [8.1 Docker Swarm](Module-8/8.1_Docker_Swarm.md)
-- [8.2 Kubernetes Basics](Module-8/8.2_Kubernetes_Basics.md)
-- [8.3 Practical Exercises](Module-8/8.3_Practical_Exercises.md)
-- [8.4 Resources](Module-8/8.4_Resources.md)
+#### [4.1. Docker Volumes](./Module-4/4.1_Docker_Volumes.md)
 
-### [Module 9: Best Practices and Advanced Topics](Module-9/About.md)
+- [4.1.1. Managing data in Docker](#)
+- [4.1.2. Understanding Docker volumes](#)
+- [4.1.3. Persisting data between container runs](#)
 
-- [9.1 Best Practices](Module-9/9.1_Best_Practices.md)
-- [9.2 Docker Registry](Module-9/9.2_Docker_Registry.md)
-- [9.3 Practical Exercises](Module-9/9.3_Practical_Exercises.md)
-- [9.4 Resources](Module-9/9.4_Resources.md)
+### [5. Advanced Docker Topics](./Module-5/)
 
-### [Module 10: Real-world Projects](Module-10/About.md)
+#### [5.1. Docker Security](./Module-5/5.1_Docker_Security.md)
 
-- [10.1 Building and Deploying Applications](Module-10/10.1_Building_and_Deploying_Applications.md)
-- [10.2 CI/CD with Docker](Module-10/10.2_CI_CD_with_Docker.md)
-- [10.3 Practical Exercises](Module-10/10.3_Practical_Exercises.md)
-- [10.4 Resources](Module-10/10.4_Resources.md)
+- [5.1.1. Best practices for securing Docker](#)
+- [5.1.2. Docker Content Trust](#)
 
-## License
+#### [5.2. Docker Monitoring and Logging](./Module-5/5.2_Docker_Monitoring_and_Logging.md)
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [5.2.1. Monitoring Docker containers](#)
+- [5.2.2. Logging best practices](#)
 
-## Contribution
+### [6. Capstone Project](./Module-6/)
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+#### [6.1. Capstone Project](./Module-6/6.1_Capstone_Project.md)
 
-Happy Dockerizing!
+- [6.1.1. Apply the knowledge gained in a real-world scenario](#)
+- [6.1.2. Build a multi-container application using Docker](#)
+
+### [7. Review and Further Learning](./Module-7/)
+
+#### [7.1. Review and Further Learning](./Module-7/7.1_Review_and_Further_Learning.md)
+
+- [7.1.1. Reflect on the skills acquired](#)
+- [7.1.2. Explore advanced Docker features and use cases](#)
+- [7.1.3. Identify areas for further learning and improvement](#)
