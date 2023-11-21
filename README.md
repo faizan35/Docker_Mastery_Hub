@@ -10,9 +10,9 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 #### [1.1. Understanding Containerization](./Module-1/1.1_Understanding_Containerizationn.md)
 
-- [1.1.1. What is containerization?]()
-- [1.1.2. Docker vs. traditional virtualization](#)
-- [1.1.3. Benefits of using Docker](#)
+- 1.1.1. What is containerization?
+- 1.1.2. Docker vs. traditional virtualization
+- 1.1.3. Benefits of using Docker
 
 #### [1.2. Installing Docker & Basic commands](./Module-1/1.2_Installing_Docker_on_your_local_machine.md)
 
