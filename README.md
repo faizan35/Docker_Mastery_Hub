@@ -32,7 +32,7 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - [2.1.1. Fundamental Components of a Docker Image](#)
 - [2.1.2. Writing Dockerfile](#)
 - [2.1.3. Creating or Building and Running Docker images](#)
-- [2.1.x. Best practices for creating efficient images](#)
+- [2.1.4. Best practices for creating efficient images](#)
 
 #### [2.2. Docker Registries](./Module-2/2.2_Docker_Registries.md)
 
@@ -45,14 +45,15 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 #### [3.1. Container Networking](./Module-3/3.1_Container_Networking.md)
 
 - [3.1.1. Understanding Docker networking](#)
-- [3.1.2. Linking containers](#)
-- [3.1.3. Exposing container ports](#)
+- [3.1.2. User-Defined Networks in Docker](#)
+- [3.1.3. Container Port Mapping](#)
+- [3.1.4. Differennt Docker network](#)
 
 #### [3.2. Docker Compose](./Module-3/3.2_Docker_Compose.md)
 
 - [3.2.1. Introduction to Docker Compose](#)
 - [3.2.2. Defining multi-container applications](#)
-- [3.2.3. Managing multi-container environments](#)
+- [3.2.3. Managing multi-container environments with Current Best Practices](#)
 
 ### [4. Docker Volumes and Data Management](./Module-4/)
 
