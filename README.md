@@ -75,17 +75,17 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - [5.2.1. Monitoring Docker containers](#)
 - [5.2.2. Logging best practices](#)
 
-### [6. Capstone Project](./Module-6/)
+### [6. Project's](./Module-6/)
 
-#### [6.1. Capstone Project](./Module-6/6.1_Capstone_Project.md)
+#### [6.1. One tier Application Project](./Module-6/6.1_One_tier_app)
 
-- [6.1.1. Apply the knowledge gained in a real-world scenario](#)
-- [6.1.2. Build a multi-container application using Docker](#)
+- [6.1.1. Docker Volume - django-todo-cicd](./Module-6/6.1_One_tier_app/6.1.1_docker_volume_django_todo.md)
+- [6.1.2. Docker Volume - Todo App](./Module-6/6.1_One_tier_app/6.1.2_docker_volume_todo.md)
 
-### [7. Review and Further Learning](./Module-7/)
+#### [6.2. Two tier Application Project](./Module-6/6.2_two_tier_app)
 
-#### [7.1. Review and Further Learning](./Module-7/7.1_Review_and_Further_Learning.md)
+- [6.2.1. Flask App with MySQL](./Module-6/6.2_Two_tier_app/6.2.1_flask_app_mysql.md)
+- [6.2.2. Flask App with MySQL with Docker-compose](./Module-6/6.2_Two_tier_app/6.2.2_flask_app_mysql_with_Docker-compose.md)
+- [6.2.3. Multistage Dockerfile - Flask App](./Module-6/6.2_Two_tier_app/6.2.3_Multistage_Dockerfile_Flask_App.md)
 
-- [7.1.1. Reflect on the skills acquired](#)
-- [7.1.2. Explore advanced Docker features and use cases](#)
-- [7.1.3. Identify areas for further learning and improvement](#)
+#### [6.3. Three tier Application Project](./Module-6/6.3_Three_tier_app/)
