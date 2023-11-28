@@ -2,6 +2,8 @@
 
 Welcome to the Docker Learning Repository! This repository is designed to guide you through the fundamentals and advanced topics of Docker, helping you gain practical skills in containerization.
 
+![Docker-Banner](./DockerMasteryHub.gif)
+
 # Docker Syllabus
 
 ## Table of Contents
