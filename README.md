@@ -3,33 +3,76 @@
 Welcome to the Docker Learning Repository! This repository is designed to guide you through the fundamentals and advanced topics of Docker, helping you gain practical skills in containerization.
 
 ## Some learning repo
+
 - https://github.com/collabnix/dockerlabs
-![Docker-Banner](./DockerMasteryHub.gif)
+  ![Docker-Banner](./Img/DockerMasteryHub.gif)
 
-# Docker Syllabus
+## Basic Level Syllabus:
 
-## Table of Contents
+#### [1. Introduction to Docker](./1-Basic/01-Introduction-to-Docker.md)
 
-### [1. Introduction to Docker](./Module-1/)
+- 1.1. What & Why of virtualization & containerization?
+- 1.2. What is Docker.?
+- 1.3. Docker Architecture and components
+- 1.4. Docker Workflow
 
-#### [1.1. Understanding Containerization](./Module-1/1.1_Understanding_Containerizationn.md)
+#### [2. Installing Docker & Basic commands](./1-Basic/02_Installing_Docker.md)
 
-- [1.1.1. What is containerization?](#)
-- [1.1.2. Docker vs. traditional virtualization](#)
-- [1.1.3. Benefits of using Docker](#)
+- 2.1. Installing Docker
+- 2.2. Basic Docker commands and CLI usage
 
-#### [1.2. Installing Docker & Basic commands](./Module-1/1.2_Installing_Docker_on_your_local_machine.md)
+#### [3. Writing and Building Docker Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
 
-- [1.2.1. Installing Docker](#)
-- [1.2.2. Basic Docker commands and CLI usage](#)
+- 3.1. What & Why is a Dockerfile?
+- 3.2. Explanation of key directives such as `FROM`, `RUN`, `COPY`, `ADD`, `CMD`, `ENTRYPOINT`, `ENV` and `WORKDIR`.
+- 3.3. Basic syntax and structure of Dockerfiles.
+- 3.4. Building Docker images using Dockerfiles
+- 3.5. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`.
 
-#### [1.3. Creating your first Docker container](./Module-1/1.3_Creating_your_first_Docker_container.md)
+#### Working with Docker Containers
 
-- [1.3.1. Building and Running Containers](#)
-- [1.3.2. Running containers with different options](#)
-- [1.3.3. Managing container lifecycle](#)
+- Running Docker Containers from Images: `docker run`
+- Managing Docker Containers: `docker ps`, `docker rm`, `docker logs`, `docker exec`, `docker start/stop/restart`
+- Viewing Container Information: `docker inspect`, `docker stats`
 
-### [2. Docker Images and Registries](./Module-2/)
+---
+
+#### 4. **Dockerfile Best Practices**
+
+- Optimizing Dockerfiles for size and efficiency
+- Multi-stage builds
+- Reducing image vulnerabilities
+
+#### 4. **Working with Docker Images**
+
+- Introduction to Docker Hub
+- Pushing and pulling Docker images from Docker Hub
+- Managing Docker images (listing, tagging)
+- Private registries and their setup
+
+#### 5. **Working with Docker Containers**
+
+- Running Docker containers from images
+- Managing Docker containers (starting, stopping, removing)
+- Viewing container logs and information
+
+#### 6. **Data Management with Docker Volumes**
+
+- Understanding data persistence in containers
+- Creating and managing Docker volumes
+- Mounting volumes in Docker containers
+
+---
+
+<!-- #### [1.3. Creating your first Docker container](./Module-1/1.3_Creating_your_first_Docker_container.md)
+
+- 1.3.1. Building and Running Containers
+- 1.3.2. Running containers with different options
+- 1.3.3. Managing container lifecycle -->
+
+---
+
+### 2. Docker Images and Registries
 
 #### [2.1. Docker Images](./Module-2/2.1_Docker_Images.md)
 
@@ -37,12 +80,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - [2.1.2. Writing Dockerfile](#)
 - [2.1.3. Creating or Building and Running Docker images](#)
 - [2.1.4. Best practices for creating efficient images](#)
-
-#### [2.2. Docker Registries](./Module-2/2.2_Docker_Registries.md)
-
-- [2.2.1. Introduction to Docker Hub](#)
-- [2.2.2. Pushing and pulling images](#)
-- [2.2.3. Private registries and their setup](#)
 
 ### [3. Docker Networking](./Module-3/)
 
@@ -93,3 +130,92 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - [6.2.3. Multistage Dockerfile - Flask App](./Module-6/6.2_Two_tier_app/6.2.3_Multistage_Dockerfile_Flask_App.md)
 
 #### [6.3. Three tier Application Project](./Module-6/6.3_Three_tier_app/)
+
+---
+
+### Intermediate Level:
+
+6.  **Docker Compose**
+    - Introduction to Docker Compose
+    - Writing Docker Compose files
+    - Managing multi-container applications with Docker Compose
+7.  **Docker Networking**
+
+    - Docker network fundamentals
+    - Configuring custom Docker networks
+    - Connecting Docker containers across networks
+
+8.  **Orchestration with Docker Swarm**
+    - Introduction to Docker Swarm
+    - Setting up a Docker Swarm cluster
+    - Deploying and managing services with Docker Swarm
+9.  **Container Security**
+
+    - Docker security best practices
+    - Securing Docker hosts and containers
+    - Using Docker Content Trust and image scanning tools
+
+### Advanced Level:
+
+#### Docker Buildx and BuildKit
+
+11. **Kubernetes Basics**
+
+    - Introduction to Kubernetes
+    - Kubernetes architecture
+    - Deploying applications on Kubernetes
+
+12. **Advanced Docker Networking**
+
+    - Docker overlay networking
+    - Service discovery and load balancing with Docker Swarm and Kubernetes
+    - Implementing network policies
+
+13. **Continuous Integration and Deployment with Docker**
+
+    - Integrating Docker into CI/CD pipelines
+    - Building Docker images in CI/CD workflows
+    - Automating deployment with Docker and container orchestration tools
+
+14. **Monitoring and Logging with Docker**
+
+    - Docker container monitoring tools (Prometheus, Grafana)
+    - Centralized logging with Docker (ELK stack, Fluentd)
+    - Monitoring Docker Swarm and Kubernetes clusters
+
+15. **Advanced Docker Concepts**
+
+    - Docker storage drivers
+    - Docker security namespaces and capabilities
+    - Using Docker for development environments and testing
+
+### Industry Level:
+
+16. **Docker in Production**
+
+    - High availability and scalability with Docker
+    - Container orchestration at scale (Kubernetes, Docker Swarm)
+    - Blue-green deployments and canary releases with Docker
+
+17. **Infrastructure as Code with Docker**
+
+    - Using Docker in infrastructure automation (Terraform, Ansible)
+    - Managing Docker infrastructure with infrastructure-as-code tools
+
+18. **Advanced Kubernetes**
+
+    - Kubernetes advanced networking (Calico, Cilium)
+    - Custom resource definitions (CRDs) and operators
+    - Kubernetes security best practices
+
+19. **Cloud-Native Development with Docker**
+
+    - Building cloud-native applications with Docker
+    - Microservices architecture with Docker containers
+    - Serverless computing with Docker containers (Knative)
+
+20. **Docker Enterprise Edition (EE)**
+
+    - Docker EE features and benefits
+    - Docker EE installation and configuration
+    - Managing Docker EE clusters in production environments

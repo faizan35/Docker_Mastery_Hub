@@ -1,8 +1,8 @@
-# 1.2 Installing Docker
+# 2. Installing Docker
 
 In this section, we will guide you through the process of installing Docker.
 
-## 1.2.1 Installing Docker
+## 2.1 Installing Docker
 
 To get started with Docker, follow these steps:
 
@@ -27,7 +27,9 @@ sudo usermod -aG docker <your user name>
 docker --version
 ```
 
-## 1.2.2 Basic Docker commands and CLI usage
+---
+
+## 2.2 Basic Docker commands and CLI usage
 
 #### 1. Images:
 
@@ -79,4 +81,4 @@ docker --version
 
 - `docker system prune` : Remove all stopped containers, unused networks, and dangling images.
 
-[← Previous](./1.1_Understanding_Containerizationn.md) || [Index](../README.md) || [Next→](./1.3_Creating_your_first_Docker_container.md)
+[← Previous] || [Index](../README.md) || [Next→]
