@@ -172,7 +172,15 @@ This command builds an image named `my-image` with the tag `latest` using the Do
 | `--network`   | Sets the networking mode for the build process.                                          |
 | `--progress`  | Sets the type of progress output during the build.                                       |
 
-## 3.5. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`
+## 3.5. Image Layering Concept with Dockerfile
+
+Docker images are built using a layered file system.
+
+1.  The Docker image starts with a read-only **base layer**, which serves as the foundation.
+2.  As instructions in the Dockerfile (such as RUN, COPY, ADD) are executed, new **read-only layers are added** on top of the base image for each instruction.
+3.  The final layer added is the writable **"container layer"**, where any changes made during the container's runtime are stored.
+
+## 3.6. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`
 
 1.  **ARG (Argument)**:
 

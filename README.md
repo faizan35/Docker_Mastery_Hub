@@ -21,15 +21,16 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 2.1. Installing Docker
 - 2.2. Basic Docker commands and CLI usage
 
-#### [3. Writing and Building Docker Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
+#### [3. Writing Dockerfiles and Building Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
 
 - 3.1. What & Why is a Dockerfile?
 - 3.2. Explanation of key directives such as `FROM`, `RUN`, `COPY`, `ADD`, `CMD`, `ENTRYPOINT`, `ENV` and `WORKDIR`.
-- 3.3. Basic syntax and structure of Dockerfiles.
+- 3.3. Basic syntax and structure of Dockerfiles
 - 3.4. Building Docker images using Dockerfiles
-- 3.5. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`.
+- 3.5. Image Layering Concept with Dockerfile
+- 3.6. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`.
 
-#### Working with Docker Containers
+#### 4. Running & Running Docker Containers
 
 - Running Docker Containers from Images: `docker run`
 - Managing Docker Containers: `docker ps`, `docker rm`, `docker logs`, `docker exec`, `docker start/stop/restart`
