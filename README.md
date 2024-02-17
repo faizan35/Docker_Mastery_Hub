@@ -27,16 +27,24 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 3.2. Explanation of key directives such as `FROM`, `RUN`, `COPY`, `ADD`, `CMD`, `ENTRYPOINT`, `ENV` and `WORKDIR`.
 - 3.3. Basic syntax and structure of Dockerfiles
 - 3.4. Building Docker images using Dockerfiles
-- 3.5. Image Layering Concept with Dockerfile
+- 3.5. Managing Docker Images: `docker images`, `docker tag`, `docker rmi`
 - 3.6. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`.
 
-#### 4. Running & Running Docker Containers
+#### [4. Running & Managing Docker Containers](./1-Basic/04_Running-Managing-Docker-Containers.md)
 
-- Running Docker Containers from Images: `docker run`
-- Managing Docker Containers: `docker ps`, `docker rm`, `docker logs`, `docker exec`, `docker start/stop/restart`
-- Viewing Container Information: `docker inspect`, `docker stats`
+- 4.1. Running Docker Containers from Images: `docker run`
+- 4.2. Managing Docker Containers: `docker ps`, `docker rm`, `docker logs`, `docker exec`, `docker start/stop/restart`
+- 4.3. Viewing Container Information: `docker inspect`, `docker stats`
+
+#### [5. Docker Image Optimization and Efficiency](./1-Basic/05_Docker-Image-Optimization-Efficiency.md)
+
+- 5.1. Image Layering Concept with Dockerfile
+- 5.2. Techniques for Minimizing Image Size
+- 5.3. Multi-Stage Builds
 
 ---
+
+#### Security and Compliance
 
 #### 4. **Dockerfile Best Practices**
 
@@ -44,34 +52,20 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - Multi-stage builds
 - Reducing image vulnerabilities
 
-#### 4. **Working with Docker Images**
+#### x. **Working with Docker Images**
 
 - Introduction to Docker Hub
 - Pushing and pulling Docker images from Docker Hub
 - Managing Docker images (listing, tagging)
 - Private registries and their setup
 
-#### 5. **Working with Docker Containers**
-
-- Running Docker containers from images
-- Managing Docker containers (starting, stopping, removing)
-- Viewing container logs and information
+---
 
 #### 6. **Data Management with Docker Volumes**
 
 - Understanding data persistence in containers
 - Creating and managing Docker volumes
 - Mounting volumes in Docker containers
-
----
-
-<!-- #### [1.3. Creating your first Docker container](./Module-1/1.3_Creating_your_first_Docker_container.md)
-
-- 1.3.1. Building and Running Containers
-- 1.3.2. Running containers with different options
-- 1.3.3. Managing container lifecycle -->
-
----
 
 ### 2. Docker Images and Registries
 
