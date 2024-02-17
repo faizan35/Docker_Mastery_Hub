@@ -40,7 +40,7 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 - 5.1. Image Layering Concept with Dockerfile
 - 5.2. Techniques for Minimizing Image Size
-- 5.3. Multi-Stage Builds
+- 5.3. Dockerfile with **Multi-Stage Builds**
 
 ---
 
