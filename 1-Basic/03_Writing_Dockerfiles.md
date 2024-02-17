@@ -172,13 +172,21 @@ This command builds an image named `my-image` with the tag `latest` using the Do
 | `--network`   | Sets the networking mode for the build process.                                          |
 | `--progress`  | Sets the type of progress output during the build.                                       |
 
-## 3.5. Image Layering Concept with Dockerfile
+## 3.5. Managing Docker Images
 
-Docker images are built using a layered file system.
-
-1.  The Docker image starts with a read-only **base layer**, which serves as the foundation.
-2.  As instructions in the Dockerfile (such as RUN, COPY, ADD) are executed, new **read-only layers are added** on top of the base image for each instruction.
-3.  The final layer added is the writable **"container layer"**, where any changes made during the container's runtime are stored.
+| Category                   | Command                                            | Description                                                                                                  |
+| -------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Pulling Images**         | `docker pull IMAGE[:TAG]`                          | Downloads a Docker image from a registry. If the tag is omitted, it defaults to `latest`.                    |
+| **Listing Images**         | `docker images [OPTIONS] [REPOSITORY[:TAG]]`       | Lists locally available Docker images. Options include `-a, --all` to show all images.                       |
+| **Building Images**        | `docker build [OPTIONS] PATH`                      | URL                                                                                                          |
+| **Tagging Images**         | `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]` | Assigns a new tag to an existing image.                                                                      |
+| **Pushing Images**         | `docker push IMAGE[:TAG]`                          | Pushes a Docker image or a repository to a registry.                                                         |
+| **Removing Images**        | `docker rmi IMAGE[:TAG]`                           | Removes one or more Docker images. Options include `docker image prune [OPTIONS]` to remove dangling images. |
+| **Inspecting Images**      | `docker inspect IMAGE[:TAG]`                       | Displays detailed information about a Docker image, including its layers, labels, and configuration.         |
+| **Cleaning Up Disk Space** | `docker system prune [OPTIONS]`                    | Removes all unused data, including stopped containers, dangling images, and cache.                           |
+| **Exporting Images**       | `docker save IMAGE[:TAG] > image.tar`              | Saves a Docker image to a tar archive file.                                                                  |
+| **Importing Images**       | `docker load < image.tar`                          | Loads a Docker image from a tar archive file.                                                                |
+| **History of an Image**    | `docker history IMAGE[:TAG]`                       | Displays the history of an image, showing how it was built layer by layer.                                   |
 
 ## 3.6. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`
 
