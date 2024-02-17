@@ -42,22 +42,15 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 5.2. Techniques for Minimizing Image Size
 - 5.3. Dockerfile with **Multi-Stage Builds**
 
+#### [6. Docker Hub and Private Registry Management](./1-Basic/06_Docker-Hub-Private-Registry-Management.md)
+
+- 6.1. Introduction to Docker Hub
+- 6.2. Pushing and pulling Docker images from Docker Hub
+- 6.3. Creating Private Docker Registry and their setup
+
 ---
 
-#### Security and Compliance
-
-#### 4. **Dockerfile Best Practices**
-
-- Optimizing Dockerfiles for size and efficiency
-- Multi-stage builds
-- Reducing image vulnerabilities
-
-#### x. **Working with Docker Images**
-
-- Introduction to Docker Hub
-- Pushing and pulling Docker images from Docker Hub
-- Managing Docker images (listing, tagging)
-- Private registries and their setup
+#### x. Security and Compliance
 
 ---
 
