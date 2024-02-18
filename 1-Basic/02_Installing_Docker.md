@@ -2,83 +2,61 @@
 
 In this section, we will guide you through the process of installing Docker.
 
-## 2.1 Installing Docker
-
 To get started with Docker, follow these steps:
 
 1. Visit the [official Docker website](https://www.docker.com/) and download the appropriate version for your operating system.
 2. Install Docker following the provided instructions.
 3. Verify the installation using the `docker --version` command.
 
-For **Debian-based Linux distribution**
+## 2.1 Installing Docker
 
-```bash
-sudo apt install docker.io
-```
+Docker can be installed on various operating systems, including Linux, macOS, and Windows. Here's a brief overview of the installation process for each:
 
-This creates a docker group.
-Add your user to this group, to avoid using `sudo` everytime.
+1.  **Linux**:
 
-```bash
-sudo usermod -aG docker <your user name>
-```
+    - On most Linux distributions, you can install Docker using the package manager. For example, on Ubuntu, you would use the following commands:
 
-```bash
-docker --version
-```
+      ```bash
+      sudo apt-get update
+      sudo apt-get install docker.io
+      ```
+
+    - Verify Docker
+
+      ```bash
+      docker --version
+      ```
+
+    - After installationg, it creates a **docker** group.
+    - Add your USER to this group, to avoid using `sudo` everytime.
+
+      ```bash
+      sudo usermod -aG docker <your user name>
+      ```
+
+    - Now you need to start the Docker service and enable it to start on boot:
+
+      ```bash
+      sudo systemctl start docker
+      sudo systemctl enable docker
+      ```
+
+2.  **macOS**:
+
+    - Docker Desktop provides an easy-to-use installer for macOS. You can download it from the official Docker website and follow the installation instructions provided.
+    - Once installed, Docker Desktop will be available in your Applications folder. Launch it and follow any additional setup steps.
+
+3.  **Windows**:
+
+    - Docker Desktop is also available for Windows. You can download the installer from the Docker website and run it.
+    - During installation, Docker Desktop may require enabling Hyper-V and other features. Follow the on-screen instructions to complete the setup.
+
+### Configuration of Docker
+
+After installing Docker, you may need to configure it based on your requirements. Some common configuration tasks include:
+
+1.  **Network Configuration**: Docker provides default network configurations, but you may need to customize them for your environment. You can configure Docker networking using command-line tools or Docker Desktop's graphical interface.
+2.  **Resource Allocation**: Docker allows you to control resource allocation for containers, such as CPU and memory limits. You can configure these settings globally or on a per-container basis.
+3.  **Registry Authentication**: If you plan to pull Docker images from private registries, you may need to configure Docker to authenticate with those registries. This typically involves providing credentials or authentication tokens.
 
 ---
-
-## 2.2 Basic Docker commands and CLI usage
-
-#### 1. Images:
-
-- `docker images` or `docker image ls`: List all Docker images on your machine.
-- `docker pull image_name:tag`: Download a Docker image from a registry.
-
-#### 2. Containers:
-
-- `docker ps`: List all running containers.
-- `docker ps -a`: List all containers (both running and stopped).
-- `docker run image_name:tag`: Run a container based on a specific image.
-- `docker stop container_id_or_name`: Stop a running container.
-- `docker start container_id_or_name`: Start a stopped container.
-- `docker restart container_id_or_name`: Restart a container.
-- `docker rm container_id_or_name`: Remove a stopped container.
-
-#### 3. Logs:
-
-- `docker logs container_id_or_name`: View the logs of a container.
-
-#### 4. Exec:
-
-- `docker exec -it container_id_or_name /bin/bash`: Open a terminal inside a running container.
-
-#### 5. Networking:
-
-- `docker network ls`: List Docker networks.
-- `docker network inspect network_name`: Inspect a specific Docker network.
-
-#### 6. Volumes:
-
-- `docker volume ls`: List Docker volumes.
-- `docker volume create volume_name`: Create a Docker volume.
-
-#### 7. Build:
-
-- `docker build -t image_name:tag .` : Build a Docker image from a Dockerfile.
-
-#### 8. Registry:
-
-- `docker login`: Log in to a Docker registry.
-- `docker push image_name:tag`: Push an image to a Docker registry.
-
-#### 9. Info:
-
-- `docker info` : Display system-wide information about Docker.
-
-#### 10. Cleanup:
-
-- `docker system prune` : Remove all stopped containers, unused networks, and dangling images.
-
-[← Previous] || [Index](../README.md) || [Next→]

@@ -2,12 +2,13 @@
 
 Welcome to the Docker Learning Repository! This repository is designed to guide you through the fundamentals and advanced topics of Docker, helping you gain practical skills in containerization.
 
+![Docker-Banner](./Img/DockerMasteryHub.gif)
+
 ## Some learning repo
 
 - https://github.com/collabnix/dockerlabs
-  ![Docker-Banner](./Img/DockerMasteryHub.gif)
 
-## Basic Level Syllabus:
+## Basic Level:
 
 #### [1. Introduction to Docker](./1-Basic/01-Introduction-to-Docker.md)
 
@@ -16,10 +17,9 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 1.3. Docker Architecture and components
 - 1.4. Docker Workflow
 
-#### [2. Installing Docker & Basic commands](./1-Basic/02_Installing_Docker.md)
+#### [2. Installing Docker](./1-Basic/02_Installing_Docker.md)
 
 - 2.1. Installing Docker
-- 2.2. Basic Docker commands and CLI usage
 
 #### [3. Writing Dockerfiles and Building Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
 
@@ -48,26 +48,102 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 6.2. Pushing and pulling Docker images from Docker Hub
 - 6.3. Creating Private Docker Registry and their setup
 
+## Intermediate Level:
+
+#### [1. Docker Volumes](./2-Intermediate/01-Docker-Volumes.md)
+
+- 1.1. Introduction to Docker Volumes
+- 1.2. Creating or Mounting Docker Volumes
+- 1.3. Managing Docker volumes
+- 1.4. Use Cases for Docker Volumes
+
+#### 2. Docker Networking
+
+---
+
+1.  **Docker Compose**
+    - Introduction to Docker Compose
+    - Writing Docker Compose files
+    - Managing multi-container applications with Docker Compose
+2.  **Docker Networking**
+
+    - Docker network fundamentals
+    - Configuring custom Docker networks
+    - Connecting Docker containers across networks
+
+3.  **Orchestration with Docker Swarm**
+
+    - Introduction to Docker Swarm
+    - Setting up a Docker Swarm cluster
+    - Deploying and managing services with Docker Swarm
+
+4.  **Container Security**
+
+    - Docker security best practices
+    - Securing Docker hosts and containers
+    - Using Docker Content Trust and image scanning tools
+
 ---
 
 #### x. Security and Compliance
 
+1.  **Security Best Practices for Dockerfiles:**
+
+    - Understanding common security vulnerabilities in Dockerfiles and container images.
+    - Techniques for minimizing attack surfaces and reducing the risk of exploitation.
+    - Using official base images and trusted sources to build secure Docker images.
+
+2.  **Vulnerability Scanning and Image Hardening:**
+
+    - Introduction to vulnerability scanning tools for Docker images.
+    - Implementing image hardening techniques to reduce security risks.
+    - Automating security checks as part of the Docker image build process.
+
+3.  **Least Privilege Principles:**
+
+    - Understanding the principle of least privilege and its application in Dockerfile commands.
+    - Limiting the permissions and capabilities granted to containers and processes.
+    - Best practices for configuring user permissions and access controls in Dockerfiles.
+
+4.  **Compliance and Regulatory Requirements:**
+
+    - Ensuring compliance with industry regulations and standards (e.g., GDPR, HIPAA) when building Docker images.
+    - Implementing security controls and audit trails within Dockerfiles.
+    - Documenting security measures and compliance efforts for Docker images.
+
+**Resources:**
+
+- Docker Documentation: Docker Security
+- CIS Docker Benchmark: Center for Internet Security Docker Benchmark
+- OWASP Docker Security Project: OWASP Docker Security
+
+#### x. Dockerfile Optimization
+
+1.  **Performance Optimization Techniques:**
+
+    - Identifying performance bottlenecks in Dockerfile commands and instructions.
+    - Techniques for optimizing Dockerfile commands to minimize build times and container startup times.
+    - Leveraging caching and parallelization to speed up Docker builds.
+
+2.  **Image Caching and Layer Reuse:**
+
+    - Understanding Docker's image layer caching mechanism and its impact on build performance.
+    - Strategies for maximizing layer reuse and minimizing unnecessary rebuilds.
+    - Using caching directives effectively to improve Dockerfile performance.
+
+3.  **BuildKit and BuildKit Features:**
+
+    - Introduction to Docker BuildKit as a tool for building Docker images more efficiently.
+    - Leveraging BuildKit features such as parallel builds, distributed caching, and build secrets.
+    - Practical examples of using BuildKit to optimize Dockerfile builds.
+
+4.  **Profiling and Debugging Dockerfiles:**
+
+    - Techniques for profiling and debugging Dockerfile performance issues.
+    - Using tools such as `docker buildx` and `BuildKit` to analyze build logs and identify optimization opportunities.
+    - Best practices for optimizing Dockerfiles based on profiling insights.
+
 ---
-
-#### 6. **Data Management with Docker Volumes**
-
-- Understanding data persistence in containers
-- Creating and managing Docker volumes
-- Mounting volumes in Docker containers
-
-### 2. Docker Images and Registries
-
-#### [2.1. Docker Images](./Module-2/2.1_Docker_Images.md)
-
-- [2.1.1. Fundamental Components of a Docker Image](#)
-- [2.1.2. Writing Dockerfile](#)
-- [2.1.3. Creating or Building and Running Docker images](#)
-- [2.1.4. Best practices for creating efficient images](#)
 
 ### [3. Docker Networking](./Module-3/)
 
@@ -120,28 +196,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 #### [6.3. Three tier Application Project](./Module-6/6.3_Three_tier_app/)
 
 ---
-
-### Intermediate Level:
-
-6.  **Docker Compose**
-    - Introduction to Docker Compose
-    - Writing Docker Compose files
-    - Managing multi-container applications with Docker Compose
-7.  **Docker Networking**
-
-    - Docker network fundamentals
-    - Configuring custom Docker networks
-    - Connecting Docker containers across networks
-
-8.  **Orchestration with Docker Swarm**
-    - Introduction to Docker Swarm
-    - Setting up a Docker Swarm cluster
-    - Deploying and managing services with Docker Swarm
-9.  **Container Security**
-
-    - Docker security best practices
-    - Securing Docker hosts and containers
-    - Using Docker Content Trust and image scanning tools
 
 ### Advanced Level:
 
