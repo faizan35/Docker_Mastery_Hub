@@ -19,7 +19,7 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 #### [2. Installing Docker](./1-Basic/02_Installing_Docker.md)
 
-- 2.1. Installing Docker
+- 2.1. Installing Docker (Linux, macOS, Windows)
 
 #### [3. Writing Dockerfiles and Building Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
 
@@ -55,7 +55,7 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 1.1. Introduction to Docker Volumes
 - 1.2. Creating or Mounting Docker Volumes
 - 1.3. Managing Docker volumes
-- 1.4. Use Cases for Docker Volumes
+- 1.4. Volume Drivers
 
 #### 2. Docker Networking
 
