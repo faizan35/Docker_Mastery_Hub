@@ -57,27 +57,39 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 1.3. Managing Docker volumes
 - 1.4. Volume Drivers
 
-#### 2. Docker Networking
+#### [2. Docker Networking - I](./2-Intermediate/02-Docker-Networking-I.md)
+
+- 2.1 Introduction to Docker Networking
+- 2.2 Default Networking in Docker
+- 2.3 Docker Bridge Networking
+- 2.4 Exposing Ports and Port Mapping
+
+---
+
+#### x. Docker Networking - II
+
+Custom Networking with Docker:
+Docker Overlay Networking:
+Network Drivers and Plugins:
+Network Security and Best Practices:
+Advanced Networking Concepts:
+Troubleshooting Docker Networking:
 
 ---
 
 1.  **Docker Compose**
+
     - Introduction to Docker Compose
     - Writing Docker Compose files
     - Managing multi-container applications with Docker Compose
-2.  **Docker Networking**
 
-    - Docker network fundamentals
-    - Configuring custom Docker networks
-    - Connecting Docker containers across networks
-
-3.  **Orchestration with Docker Swarm**
+2.  **Orchestration with Docker Swarm**
 
     - Introduction to Docker Swarm
     - Setting up a Docker Swarm cluster
     - Deploying and managing services with Docker Swarm
 
-4.  **Container Security**
+3.  **Container Security**
 
     - Docker security best practices
     - Securing Docker hosts and containers
@@ -159,14 +171,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - [3.2.1. Introduction to Docker Compose](#)
 - [3.2.2. Defining multi-container applications](#)
 - [3.2.3. Managing multi-container environments with Current Best Practices](#)
-
-### [4. Docker Volumes and Data Management](./Module-4/)
-
-#### [4.1. Docker Volumes](./Module-4/4.1_Docker_Volumes.md)
-
-- [4.1.1. Managing data in Docker](#)
-- [4.1.2. Understanding Docker volumes](#)
-- [4.1.3. Persisting data between container runs](#)
 
 ### [5. Advanced Docker Topics](./Module-5/)
 
