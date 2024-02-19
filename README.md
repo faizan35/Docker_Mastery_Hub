@@ -36,7 +36,7 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 4.2. Managing Docker Containers: `docker ps`, `docker rm`, `docker logs`, `docker exec`, `docker start/stop/restart`
 - 4.3. Viewing Container Information: `docker inspect`, `docker stats`
 
-#### [5. Docker Image Optimization and Efficiency](./1-Basic/05_Docker-Image-Optimization-Efficiency.md)
+#### [5. Image Layering & Multi-Stage Builds](./1-Basic/05_Docker-Image-Optimization-Efficiency.md)
 
 - 5.1. Image Layering Concept with Dockerfile
 - 5.2. Techniques for Minimizing Image Size
@@ -64,24 +64,55 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 2.3 Docker Bridge Networking
 - 2.4 Exposing Ports and Port Mapping
 
+#### [3. Docker Compose](./2-Intermediate/03-Docker-Compose.md)
+
+- 3.1 Introduction to Docker Compose
+- 3.2 Docker Compose File Basics
+- 3.3 Docker Compose Directives
+  - 3.3.1 [Detailed Docker Compose Directives](./2-Intermediate/03-1-Docker-Compose-Directives.md)
+- 3.4 Managing multi-container applications with Docker Compose
+
 ---
 
 #### x. Docker Networking - II
 
-Custom Networking with Docker:
-Docker Overlay Networking:
-Network Drivers and Plugins:
-Network Security and Best Practices:
-Advanced Networking Concepts:
-Troubleshooting Docker Networking:
+#### Custom Networking with Docker:
+
+- Introduction to custom network creation in Docker.
+- Advantages of custom networks over default bridge networking.
+- Creating custom bridge, overlay, and macvlan networks using Docker commands and Docker Compose.
+
+#### Docker Overlay Networking:
+
+- Understanding Docker's overlay network for multi-host communication.
+- How overlay networks facilitate communication between containers across multiple Docker hosts.
+- Configuring and managing overlay networks for distributed applications.
+
+#### Network Drivers and Plugins:
+
+- Overview of Docker network drivers and plugins.
+- Different types of network drivers supported by Docker (bridge, overlay, macvlan, etc.).
+- How to extend Docker networking capabilities with third-party plugins.
+
+#### Network Security and Best Practices:
+
+- Implementing network security measures within Docker environments.
+- Best practices for securing Docker networks against external threats.
+- Techniques for network segmentation and isolation to enhance security.
+
+#### Advanced Networking Concepts:
+
+- Exploring advanced networking concepts such as service discovery, load balancing, and network policies.
+- Implementing DNS-based service discovery and load balancing using Docker Swarm and Kubernetes.
+- Using network policies to enforce communication rules and access controls within Docker networks.
+
+#### Troubleshooting Docker Networking:
+
+- Common networking issues in Docker environments.
+- Techniques for troubleshooting network connectivity problems.
+- Tips and tricks for debugging and resolving Docker networking issues effectively.
 
 ---
-
-1.  **Docker Compose**
-
-    - Introduction to Docker Compose
-    - Writing Docker Compose files
-    - Managing multi-container applications with Docker Compose
 
 2.  **Orchestration with Docker Swarm**
 
