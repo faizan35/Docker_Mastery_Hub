@@ -72,43 +72,46 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
   - 3.3.1 [Detailed Docker Compose Directives](./2-Intermediate/03-1-Docker-Compose-Directives.md)
 - 3.4 Managing multi-container applications with Docker Compose
 
-#### 4. Container Security
+#### [4. Container Security](./2-Intermediate/04-Container-Security.md)
 
-- Docker security best practices
-- Securing Docker hosts and containers
-- Using Docker Content Trust and image scanning tools
+- 4.1 Security Best Practices for Dockerfiles
+- 4.2 Vulnerability Scanning and Image Hardening
+- 4.3 Least Privilege Principles
+- 4.4 Compliance and Regulatory Requirements
 
-#### x. Security and Compliance
+## Advanced Level:
 
-1.  **Security Best Practices for Dockerfiles:**
+#### Docker Buildx and BuildKit
 
-    - Understanding common security vulnerabilities in Dockerfiles and container images.
-    - Techniques for minimizing attack surfaces and reducing the risk of exploitation.
-    - Using official base images and trusted sources to build secure Docker images.
+11. **Kubernetes Basics**
 
-2.  **Vulnerability Scanning and Image Hardening:**
+    - Introduction to Kubernetes
+    - Kubernetes architecture
+    - Deploying applications on Kubernetes
 
-    - Introduction to vulnerability scanning tools for Docker images.
-    - Implementing image hardening techniques to reduce security risks.
-    - Automating security checks as part of the Docker image build process.
+12. **Advanced Docker Networking**
 
-3.  **Least Privilege Principles:**
+    - Docker overlay networking
+    - Service discovery and load balancing with Docker Swarm and Kubernetes
+    - Implementing network policies
 
-    - Understanding the principle of least privilege and its application in Dockerfile commands.
-    - Limiting the permissions and capabilities granted to containers and processes.
-    - Best practices for configuring user permissions and access controls in Dockerfiles.
+13. **Continuous Integration and Deployment with Docker**
 
-4.  **Compliance and Regulatory Requirements:**
+    - Integrating Docker into CI/CD pipelines
+    - Building Docker images in CI/CD workflows
+    - Automating deployment with Docker and container orchestration tools
 
-    - Ensuring compliance with industry regulations and standards (e.g., GDPR, HIPAA) when building Docker images.
-    - Implementing security controls and audit trails within Dockerfiles.
-    - Documenting security measures and compliance efforts for Docker images.
+14. **Monitoring and Logging with Docker**
 
-**Resources:**
+    - Docker container monitoring tools (Prometheus, Grafana)
+    - Centralized logging with Docker (ELK stack, Fluentd)
+    - Monitoring Docker Swarm and Kubernetes clusters
 
-- Docker Documentation: Docker Security
-- CIS Docker Benchmark: Center for Internet Security Docker Benchmark
-- OWASP Docker Security Project: OWASP Docker Security
+15. **Advanced Docker Concepts**
+
+    - Docker storage drivers
+    - Docker security namespaces and capabilities
+    - Using Docker for development environments and testing
 
 ---
 
@@ -180,18 +183,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 ---
 
-### [5. Advanced Docker Topics](./Module-5/)
-
-#### [5.1. Docker Security](./Module-5/5.1_Docker_Security.md)
-
-- [5.1.1. Best practices for securing Docker](#)
-- [5.1.2. Docker Content Trust](#)
-
-#### [5.2. Docker Monitoring and Logging](./Module-5/5.2_Docker_Monitoring_and_Logging.md)
-
-- [5.2.1. Monitoring Docker containers](#)
-- [5.2.2. Logging best practices](#)
-
 ### [6. Project's](./Module-6/)
 
 #### [6.1. One tier Application Project](./Module-6/6.1_One_tier_app)
@@ -208,40 +199,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 #### [6.3. Three tier Application Project](./Module-6/6.3_Three_tier_app/)
 
 ---
-
-### Advanced Level:
-
-#### Docker Buildx and BuildKit
-
-11. **Kubernetes Basics**
-
-    - Introduction to Kubernetes
-    - Kubernetes architecture
-    - Deploying applications on Kubernetes
-
-12. **Advanced Docker Networking**
-
-    - Docker overlay networking
-    - Service discovery and load balancing with Docker Swarm and Kubernetes
-    - Implementing network policies
-
-13. **Continuous Integration and Deployment with Docker**
-
-    - Integrating Docker into CI/CD pipelines
-    - Building Docker images in CI/CD workflows
-    - Automating deployment with Docker and container orchestration tools
-
-14. **Monitoring and Logging with Docker**
-
-    - Docker container monitoring tools (Prometheus, Grafana)
-    - Centralized logging with Docker (ELK stack, Fluentd)
-    - Monitoring Docker Swarm and Kubernetes clusters
-
-15. **Advanced Docker Concepts**
-
-    - Docker storage drivers
-    - Docker security namespaces and capabilities
-    - Using Docker for development environments and testing
 
 ### Industry Level:
 
