@@ -1,4 +1,4 @@
-# Docker Learning Repository
+# Docker Mastery Hub
 
 Welcome to the Docker Learning Repository! This repository is designed to guide you through the fundamentals and advanced topics of Docker, helping you gain practical skills in containerization.
 
@@ -72,9 +72,47 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
   - 3.3.1 [Detailed Docker Compose Directives](./2-Intermediate/03-1-Docker-Compose-Directives.md)
 - 3.4 Managing multi-container applications with Docker Compose
 
+#### 4. Container Security
+
+- Docker security best practices
+- Securing Docker hosts and containers
+- Using Docker Content Trust and image scanning tools
+
+#### x. Security and Compliance
+
+1.  **Security Best Practices for Dockerfiles:**
+
+    - Understanding common security vulnerabilities in Dockerfiles and container images.
+    - Techniques for minimizing attack surfaces and reducing the risk of exploitation.
+    - Using official base images and trusted sources to build secure Docker images.
+
+2.  **Vulnerability Scanning and Image Hardening:**
+
+    - Introduction to vulnerability scanning tools for Docker images.
+    - Implementing image hardening techniques to reduce security risks.
+    - Automating security checks as part of the Docker image build process.
+
+3.  **Least Privilege Principles:**
+
+    - Understanding the principle of least privilege and its application in Dockerfile commands.
+    - Limiting the permissions and capabilities granted to containers and processes.
+    - Best practices for configuring user permissions and access controls in Dockerfiles.
+
+4.  **Compliance and Regulatory Requirements:**
+
+    - Ensuring compliance with industry regulations and standards (e.g., GDPR, HIPAA) when building Docker images.
+    - Implementing security controls and audit trails within Dockerfiles.
+    - Documenting security measures and compliance efforts for Docker images.
+
+**Resources:**
+
+- Docker Documentation: Docker Security
+- CIS Docker Benchmark: Center for Internet Security Docker Benchmark
+- OWASP Docker Security Project: OWASP Docker Security
+
 ---
 
-#### x. Docker Networking - II
+### x. Docker Networking - II
 
 #### Custom Networking with Docker:
 
@@ -114,52 +152,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 ---
 
-2.  **Orchestration with Docker Swarm**
-
-    - Introduction to Docker Swarm
-    - Setting up a Docker Swarm cluster
-    - Deploying and managing services with Docker Swarm
-
-3.  **Container Security**
-
-    - Docker security best practices
-    - Securing Docker hosts and containers
-    - Using Docker Content Trust and image scanning tools
-
----
-
-#### x. Security and Compliance
-
-1.  **Security Best Practices for Dockerfiles:**
-
-    - Understanding common security vulnerabilities in Dockerfiles and container images.
-    - Techniques for minimizing attack surfaces and reducing the risk of exploitation.
-    - Using official base images and trusted sources to build secure Docker images.
-
-2.  **Vulnerability Scanning and Image Hardening:**
-
-    - Introduction to vulnerability scanning tools for Docker images.
-    - Implementing image hardening techniques to reduce security risks.
-    - Automating security checks as part of the Docker image build process.
-
-3.  **Least Privilege Principles:**
-
-    - Understanding the principle of least privilege and its application in Dockerfile commands.
-    - Limiting the permissions and capabilities granted to containers and processes.
-    - Best practices for configuring user permissions and access controls in Dockerfiles.
-
-4.  **Compliance and Regulatory Requirements:**
-
-    - Ensuring compliance with industry regulations and standards (e.g., GDPR, HIPAA) when building Docker images.
-    - Implementing security controls and audit trails within Dockerfiles.
-    - Documenting security measures and compliance efforts for Docker images.
-
-**Resources:**
-
-- Docker Documentation: Docker Security
-- CIS Docker Benchmark: Center for Internet Security Docker Benchmark
-- OWASP Docker Security Project: OWASP Docker Security
-
 #### x. Dockerfile Optimization
 
 1.  **Performance Optimization Techniques:**
@@ -187,21 +179,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
     - Best practices for optimizing Dockerfiles based on profiling insights.
 
 ---
-
-### [3. Docker Networking](./Module-3/)
-
-#### [3.1. Container Networking](./Module-3/3.1_Container_Networking.md)
-
-- [3.1.1. Understanding Docker networking](#)
-- [3.1.2. User-Defined Networks in Docker](#)
-- [3.1.3. Container Port Mapping](#)
-- [3.1.4. Differennt Docker network](#)
-
-#### [3.2. Docker Compose](./Module-3/3.2_Docker_Compose.md)
-
-- [3.2.1. Introduction to Docker Compose](#)
-- [3.2.2. Defining multi-container applications](#)
-- [3.2.3. Managing multi-container environments with Current Best Practices](#)
 
 ### [5. Advanced Docker Topics](./Module-5/)
 
