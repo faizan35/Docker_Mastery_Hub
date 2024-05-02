@@ -33,6 +33,10 @@ Docker can be installed on various operating systems, including Linux, macOS, an
       ```bash
       sudo usermod -aG docker <your user name>
       ```
+      or
+
+      - Giving permission to the user for Docker daemon socket: `sudo chown $USER /var/run/docker.sock`
+
 
     - Now you need to start the Docker service and enable it to start on boot:
 
