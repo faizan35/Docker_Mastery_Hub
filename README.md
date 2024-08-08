@@ -6,10 +6,6 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 ![Docker-Banner](./Img/DockerMasteryHub.gif)
 
-## Some learning repo
-
-- https://github.com/collabnix/dockerlabs
-
 ## Basic Level:
 
 #### [1. Introduction to Docker](./1-Basic/01-Introduction-to-Docker.md)
@@ -23,7 +19,15 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 
 - 2.1. Installing Docker (Linux, macOS, Windows)
 
-#### [3. Writing Dockerfiles and Building Images with Dockerfiles](./1-Basic/03_Writing_Dockerfiles.md)
+#### [3. Docker Images](./1-Basic/03_Docker_Images.md)
+
+- Understanding Docker images and containers
+- Docker image layers and how they work
+- Creating custom Docker images using Dockerfile
+- Best practices for writing Dockerfiles
+- Managing images with Docker Hub and private registries
+
+#### [4. Writing Dockerfiles and Building Images with Dockerfiles](./1-Basic/04_Writing_Dockerfiles.md)
 
 - 3.1. What & Why is a Dockerfile?
 - 3.2. Explanation of key directives such as `FROM`, `RUN`, `COPY`, `ADD`, `CMD`, `ENTRYPOINT`, `ENV` and `WORKDIR`.
@@ -31,6 +35,8 @@ Welcome to the Docker Learning Repository! This repository is designed to guide 
 - 3.4. Building Docker images using Dockerfiles
 - 3.5. Managing Docker Images: `docker images`, `docker tag`, `docker rmi`
 - 3.6. Few more directives: `ARG`, `EXPOSE`, `VOLUME`, `EXPOSE`, `LABEL`, `ONBUILD`, `HEALTHCHECK`, `SHELL`, `USER`.
+
+#### [4.5. All different Dockerfiles of different language](./1-Basic/04.5_All_Dockerfiles.md)
 
 #### [4. Running & Managing Docker Containers](./1-Basic/04_Running-Managing-Docker-Containers.md)
 
